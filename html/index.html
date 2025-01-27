@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Acesso</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/script/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Controle de Acesso</h1>
+  </header>
+  <main>
+    <h2>Cadastrar novo usuário</h2>
+    <p>Preencha os dados abaixo para cadastrar um novo usuário</p>
+
+    <form id="userForm">
+      <div class="upload-area" id="uploadArea">
+        <label for="imagem">Clique para fazer o upload da imagem</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" required>
+        <div id="imagePreview" class="image-preview"></div>
+      </div>
+
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome" required>
+      </div>
+
+      <div>
+        <label for="cargo">Cargo</label>
+        <select id="cargo" name="cargo" required>
+          <option value="" disabled selected>Selecione o cargo</option>
+          <option value="Aluno">Aluno</option>
+          <option value="Funcionário">Funcionário</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Digite o email" required>
+      </div>
+
+      <div>
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone" required>
+      </div>
+
+      <button type="submit" class="btn-primary">Cadastrar</button>
+    </form>
+  </main>
+
+  <footer>
+    <h6>FEITO POR DIEGO</h6>
+  </footer>
+</body>
+
+</html>

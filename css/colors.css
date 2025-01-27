@@ -1,0 +1,13 @@
+:root {
+    --senai-vermelho: #CC0000; /* Vermelho SENAI */
+    --senai-azul: #00387B; /* Azul SENAI */
+    --branco: #FFFFFF; /* Branco */
+    
+
+    /* Cores complementares */
+
+
+    --cinza-claro: #F5F5F5; /* Cinza Claro */
+    --cinza-escuro: #333333; /* Cinza Escuro */
+}
+
